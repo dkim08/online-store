@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider_1.css">
+    <link rel="stylesheet" href="slider_1.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top_wrapper">
+                    <p class="header-top_left">
+                        Welcome to worldwide Megamart!
+                    </p>
+                    <div class="header-top_items">
+                        <div class="header-top_item">
+                            <img src="item/Location.svg" alt="">
+                            <p>Deliver to <span>423651</span></p>
+                        </div>
+                        <div class="header-top_item">
+                            <img src="item/iconoir_delivery-truck.svg" alt="">
+                            <p>Track your order</p>
+                        </div>
+                        <div class="header-top_item">
+                            <img src="item/Discount.svg" alt="">
+                            <p>All Offers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom_wrapper">
+                    <div class="header-bottom_left">
+                        <div class="header-menu">
+                            <img src="item/menu.svg" alt="">
+                        </div>
+                        <img src="item/MegaMart.svg" alt="" class="header-logo">
+                    </div>
+                    <div class="header-bottom_right">
+                        <div class="header-search">
+                            <img src="item/Search.svg" alt="">
+                            <input class="input_search" type="text"
+                                placeholder="Search essentials, groceries and more...">
+                            <img src="item/list.svg" alt="">
+                        </div>
+                        <img src="item/user.svg" alt="">
+                        <div class="header-user">
+                            <a href="">Sign Up/ SIgn In</a>
+                        </div>
+                        <p>|</p>
+                        <div class="line"></div>
+                        <img class="img-cart" src="item/cart.svg" alt="">
+                        <div class="header-cart">
+                            <a href="">Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="line_header">
+        </div>
+
+        <div class="header-a">
+            <div class="container">
+                <div class="content">
+                    <div class="header-img-a" onmouseover="showPopup()" onmouseout="hidePopup()">
+                        <p>Groceries</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+
+                    <div class="header-img-a" onmouseover="showPopup2()" onmouseout="hidePopup2()">
+                        <p>Premium Fruits</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+
+                    <div class="header-img-a" onmouseover="showPopup3()" onmouseout="hidePopup3()">
+                        <p>Home & Kitchen</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+
+                    <div class="header-img-a" onmouseover="showPopup4()" onmouseout="hidePopup4()">
+                        <p>Fashion</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+
+                    <div class="header-img-a" onmouseover="showPopup5()" onmouseout="hidePopup5()">
+                        <p>Electronics</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+
+                    <div class="header-img-a" onmouseover="showPopup6()" onmouseout="hidePopup6()">
+                        <p>Beauty</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+
+                    <div class="header-img-a" onmouseover="showPopup7()" onmouseout="hidePopup7()">
+                        <p>Home Improvement</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+
+                    <div class="header-img-a" onmouseover="showPopup8()" onmouseout="hidePopup8()">
+                        <p>Sports, Toys & Luggage</p>
+                        <img src="item/Arrow - Down blue.svg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="popup" id="popup">
+                    <p>This is Groceries popup.</p>
+                </div>
+
+                <div class="popup2" id="popup_2">
+                    <p>This is Premium Fruits.</p>
+                </div>
+
+                <div class="popup3" id="popup_3">
+                    <p>This is Home & Kitchen.</p>
+                </div>
+
+                <div class="popup4" id="popup_4">
+                    <p>This is Fashion.</p>
+                </div>
+
+                <div class="popup5" id="popup_5">
+                    <p>This is Electronics.</p>
+                </div>
+
+                <div class="popup6" id="popup_6">
+                    <p>This is Beauty.</p>
+                </div>
+
+                <div class="popup" id="popup_7">
+                    <p>This is BeHome Improvement.</p>
+                </div>
+
+                <div class="popup" id="popup_8">
+                    <p>This is Sports, Toys & Luggage.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr class="line_header_2">
+    <section class="s1">
+        <div class="slider_1">
+            <div class="content-slider-1">
+                <img class="active" src="item/smartwatches-banner.png" alt="image 1">
+                <img src="item/banner2-smartwatches.webp" alt="image 2">
+            </div>
+            <div class="controlls_1">
+                <button class="prev">◄</button>
+                <button class="prev">►</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="container">
+            <div class="upper">
+                <p class="border-blue">Grab the best deal on <span class="upper_color_2">Smartphones</span></p>
+                <a href="" class="link" style="color: black;">View All <span class="upper_color_2">►</span></a>
+            </div>
+            <div class="content_s2">
+                <div class="img-phone">
+                    <div class="picture">
+                        <div class="up-gray">
+                            <p class="skidka">56% OFF</p>
+                            <img class="photo_phone" src="item/image 3 (1).png" alt="">
+                        </div>
+                        <div class="low-white">
+                            <p class="p1">Galaxy S22 Ultra</p>
+                            <b>₹32999</b>
+                            <s>₹74999</s>
+                            <hr class="line-low-white">
+                            <p class="p2">Save - ₹32999</p>
+                        </div>
+                    </div>
+
+                    <div class="picture">
+                        <div class="up-gray">
+                            <p class="skidka">56% OFF</p>
+                            <img class="photo_phone" src="item/image 3 (2).png" alt="">
+                        </div>
+                        <div class="low-white">
+                            <p class="p1">Galaxy M13 (4GB | 64 GB )</p>
+                            <b>₹10499</b>
+                            <s>₹14999</s>
+                            <hr class="line-low-white">
+                            <p class="p2">Save - ₹4500</p>
+                        </div>
+                    </div>
+
+                    <div class="picture">
+                        <div class="up-gray">
+                            <p class="skidka">56% OFF</p>
+                            <img class="photo_phone" src="item/image 3 (3).png" alt="">
+                        </div>
+                        <div class="low-white">
+                            <p class="p1">Galaxy M33 (4GB | 64 GB )</p>
+                            <b>₹16999</b>
+                            <s>₹24999</s>
+                            <hr class="line-low-white">
+                            <p class="p2">Save - ₹8000 </p>
+                        </div>
+                    </div>
+
+                    <div class="picture">
+                        <div class="up-gray">
+                            <p class="skidka">56% OFF</p>
+                            <img class="photo_phone" src="item/image 3 (4).png" alt="">
+                        </div>
+                        <div class="low-white">
+                            <p class="p1">Galaxy M53 (4GB | 64 GB )</p>
+                            <b>₹31999</b>
+                            <s>₹40999</s>
+                            <hr class="line-low-white">
+                            <p class="p2">Save - ₹9000</p>
+                        </div>
+                    </div>
+
+                    <div class="picture">
+                        <div class="up-gray">
+                            <p class="skidka">56% OFF</p>
+                            <img class="photo_phone" src="item/image 3 (5).png" alt="">
+                        </div>
+                        <div class="low-white">
+                            <p class="p1">Galaxy S22 Ultra</p>
+                            <b>₹67999</b>
+                            <s>₹85999</s>
+                            <hr class="line-low-white">
+                            <p class="p2">Save - ₹18000</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="upper">
+                    <p class="border-blue">Shop From Top <span class="upper_color_2">Categories</span></p>
+                    <a href="" class="link" style="color: black;">View All <span class="upper_color_2">►</span></a>
+                </div>
+
+                <div class="img-things">
+                    <div class="block">
+                        <div class="things_content">
+                            <img src="item/image 3.svg" alt="" class="img-phone">
+                        </div>
+                        <p>Mobile</p>
+                    </div>
+
+                    <div class="block">
+                        <div class="things_content">
+                            <img src="item/cream.png" alt="" class="img-cream">
+                        </div>
+                        <p>Cosmetics</p>
+                    </div>
+
+                    <div class="block">
+                        <div class="things_content">
+                            <p><img src="item/img-wash.svg" alt=""></p>
+                        </div>
+                        <p>Electronics</p>
+                    </div>
+
+                    <div class="block">
+                        <div class="things_content">
+                            <img src="item/image 4.svg" alt="">
+                        </div>
+                        <p>Furniture</p>
+                    </div>
+
+                    <div class="block">
+                        <div class="things_content">
+                            <img src="item/watch.png" alt="" class="img-watch">
+                        </div>
+                        <p>Watches</p>
+                    </div>
+
+
+                    <div class="block">
+                        <div class="things_content">
+                            <img src="item/image 6.svg" alt="">
+                        </div>
+                        <p>Decor</p>
+                    </div>
+
+                    <div class="block">
+                        <div class="things_content">
+                            <img src="item/image 7.svg" alt="">
+                        </div>
+                        <p>Accessories</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="upper">
+                <p class="border-blue">Top <span class="upper_color_2">Electronics Brands </span></p>
+                <a href="" class="link" style="color: black;">View All <span class="upper_color_2">►</span></a>
+            </div>
+
+            <div class="slider_2">
+                <div class="content-slider_2">
+                    <div>
+                        <img src="item/banner1.png" alt="image 1">
+                        <img src="item/banner2.png" alt="image 2">
+                        <img src="item/banner3.png" alt="image 3">
+                    </div>
+
+                    <div>
+                        <img src="item/banner2.png" alt="image 1">
+                        <img src="item/banner3.png" alt="image 2">
+                        <img src="item/banner1.png" alt="image 3">
+                    </div>
+
+                    <div>
+                        <img src="item/banner3.png" alt="image 1">
+                        <img src="item/banner1.png" alt="image 2">
+                        <img src="item/banner2.png" alt="image 3">
+                    </div>
+                </div>
+
+                <div class="controlls_2">
+                    <button class="prev_2">◄</button>
+                    <button class="next_2">►</button>
+
+                </div>
+            </div>
+
+
+            <div class="upper">
+                <p class="border-blue">Daily <span class="upper_color_2">Essentials</span></p>
+                <a href="" class="link" style="color: black;">View All <span class="upper_color_2">►</span></a>
+            </div>
+
+            <div class="fruits">
+                <div class="block-fruit">
+                    <div class="fruit_img">
+                        <img src="item/fruits1.png" alt="">
+                    </div>
+
+                    <div class="fruit_text">
+                        <p>Daily Essentials</p>
+                        <b>UP to 50% OFF</b>
+                    </div>
+                </div>
+
+                <div class="block-fruit">
+                    <div class="fruit_img">
+                        <img src="item/fruits2.png" alt="">
+                    </div>
+
+                    <div class="fruit_text">
+                        <p>Daily Essentials</p>
+                        <b>UP to 50% OFF</b>
+                    </div>
+                </div>
+
+                <div class="block-fruit">
+                    <div class="fruit_img">
+                        <img src="item/fruits3.png" alt="">
+                    </div>
+
+                    <div class="fruit_text">
+                        <p>Daily Essentials</p>
+                        <b>UP to 50% OFF</b>
+                    </div>
+
+                </div>
+
+                <div class="block-fruit">
+                    <div class="fruit_img">
+                        <img src="item/mango.png" alt="">
+                    </div>
+
+                    <div class="fruit_text">
+                        <p>Daily Essentials</p>
+                        <b>UP to 50% OFF</b>
+                    </div>
+                </div>
+
+
+                <div class="block-fruit">
+                    <div class="fruit_img">
+                        <img src="item/cherry.png" alt="">
+                    </div>
+
+                    <div class="fruit_text">
+                        <p>Daily Essentials</p>
+                        <b>UP to 50% OFF</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="container-footer">
+                <div class="footer-left-content">
+                    <h1> MegaMart</h1>
+                    <p>Contact Us</p>
+                    <div class="whatsapp">
+                        <img src="" alt="">
+                        <p>Whats App <br> +1 202-918-2132</p>
+                    </div>
+                    <div class="phone">
+                        <img src="" alt="">
+                        <p>Call Us <br> +1 202-918-2132</p>
+                    </div>
+                    <p class="dwld">Download App</p>
+                    <div class="img-footer-left">
+                        <img src="item/app-store.svg" alt="">
+                        <img src="item/google-play.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-center-content">
+                    <h3>Most Popular Categories</h3>
+                    <hr style="border:#fff solid 3px; border-radius: 3px;"">
+                    <div>
+                        <p>● Staples</p>
+                        <p>● Beverages</p>
+                        <p>● Personal Care</p>
+                        <p>● Home Care</p>
+                        <p>● Baby Care</p>
+                        <p>● Vegetables & Fruits</p>
+                        <p>● Snacks & Foods</p>
+                        <p>● Dairy & Bakery</p>
+                    </div>
+                </div>
+                
+                <div class=" footer-right-content">
+                    <h3>Customer Services</h3>
+                    <hr style="border:#fff solid 3px; border-radius: 3px;">
+                    <div>
+                        <p>● About Us</p>
+                        <p>● Terms & Conditions</p>
+                        <p>● FAQ</p>
+                        <p>● Privacy Policy</p>
+                        <p>● E-waste Policy</p>
+                        <p>● Cancellation & Return Policy</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-down-content">
+                <hr>
+                <p>© 2022 All rights reserved. Reliance Retail Ltd.</p>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+<script src="slider_1.js"></script>
+<script src="popup.js"></script>
+<script src="slider_2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</html>

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Bold';
+    src: url('fonts/HKGrotesk-Bold.otf');
+}
+
+@font-face {
+    font-family: 'ExtraBold';
+    src: url('fonts/HKGrotesk-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'SenmiBoldLegacy';
+    src: url('fonts/HKGrotesk-SemiBoldLegacy.otf');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('fonts/HKGrotesk-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/HKGrotesk-Regular.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top_item:last-child {
+    border-right: none;
+    padding-right: 0;
+
+    :first-child{
+    padding-left: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.slider_2 {
+    position: relative;
+    
+}
+
+.content-slider_2 {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-slider_2>div {
+    flex: 0 0 100%;
+    display: none;
+}
+
+.content-slider_2>div.active {
+    display: block;
+}
